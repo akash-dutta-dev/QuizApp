@@ -68,11 +68,9 @@ export class QuestionService {
 
       // Remove only the first occurrence of the word 'json' if present
       responseText = responseText.replace(/\bjson\b/i, '').trim();
-      console.log('responseText ', responseText);
 
       try {
         generatedQuestions = JSON.parse(responseText);
-        console.log('generatedQuestions ', generatedQuestions);
       } catch (jsonError) {
         throw new BadRequestException(
           'Error parsing JSON response from OpenAI',
