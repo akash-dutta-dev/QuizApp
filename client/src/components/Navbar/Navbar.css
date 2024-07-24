@@ -58,7 +58,8 @@
   top: 60px; /* Adjust based on your layout */
   left: 0;
   right: 0;
-  width: 40rem;
+  width: 100%;
+  max-width: 40rem;
   margin: 0 auto;
   background: white;
   border: 1px solid #ccc;
