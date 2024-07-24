@@ -12,7 +12,8 @@
   gap: 1rem;
 }
 .otpBox {
-  width: 2.5rem;
+  width: 16%;
+  max-width: 2.5rem;
   height: 2.5rem;
   border-radius: 0.8rem;
   font-size: x-large;
