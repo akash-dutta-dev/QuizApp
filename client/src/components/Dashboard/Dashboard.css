@@ -1,0 +1,12 @@
+.welcomeMessage {
+  font-family: sans-serif;
+  margin: 3rem;
+}
+.topicBox {
+  margin-bottom: 10rem;
+}
+
+.welcomeMessage span {
+  font-size: small;
+  font-weight: lighter;
+}
