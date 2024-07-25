@@ -1,4 +1,3 @@
-// score.controller.ts
 import { Controller, Post, Body, Req, Res } from '@nestjs/common';
 import { ScoreService } from './score.service';
 import { SubmitScoreDto } from './dto/submit-score.dto';

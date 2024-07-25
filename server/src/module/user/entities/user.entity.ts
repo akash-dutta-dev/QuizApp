@@ -1,4 +1,3 @@
-// src/users/user.entity.ts
 import { Question } from 'src/module/question/entity/question.entity';
 import { Score } from 'src/module/score/entity/score.entity';
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';

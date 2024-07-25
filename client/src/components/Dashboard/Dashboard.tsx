@@ -86,7 +86,7 @@ export const Dashboard = () => {
     <div>
       <h2 className="welcomeMessage">
         Welcome {userDetails ? userDetails.name : "Guest"}, Select a topic to
-        start your quiz <span>(Questions are AI Generated)</span>
+        start your quiz <span>(Questions are AI Generated in real-time)</span>
       </h2>
       {isModalOpen && (
         <Modal onClose={handleModalClose}>

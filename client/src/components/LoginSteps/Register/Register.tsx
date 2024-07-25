@@ -1,4 +1,3 @@
-// src/components/RegisterForm.js
 import React, { useState } from "react";
 import { RegisterForm } from "../LoginSteps";
 import axios from "axios";

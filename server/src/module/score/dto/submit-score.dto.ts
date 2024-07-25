@@ -1,4 +1,3 @@
-// create-score.dto.ts
 import {
   IsNotEmpty,
   IsArray,

@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import axios from "axios";
-import "./Topics.css"; // Make sure to create and import this CSS file
+import "./Topics.css";
 import config from "../../config/config";
 import { useNavigate } from "react-router-dom";
 import { Loading } from "../Loading/Loading";
