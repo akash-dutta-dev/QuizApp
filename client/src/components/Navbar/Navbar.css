@@ -31,6 +31,7 @@
   border-radius: 20px;
   font-size: 1rem;
   transition: box-shadow 0.3s ease;
+  background-color: white;
 }
 
 .search-bar:focus {
@@ -42,6 +43,7 @@
   display: flex;
   gap: 20px;
   cursor: pointer;
+  color: black;
 }
 
 .icon {
